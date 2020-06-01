@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COGNIT | Página Percepción</title>
+    <link rel="stylesheet" href="pagina_informacio_percepcio.css">
+</head>
+<body>
+    <div id="capçalera">
+        <a href="pagina_activitats_percepcio.html"><svg class="logo_fletxa" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+            <path d="M0 0h24v24H0V0z" fill="none"/>
+            <path d="M19 11H7.83l4.88-4.88c.39-.39.39-1.03 0-1.42-.39-.39-1.02-.39-1.41 0l-6.59 6.59c-.39.39-.39 1.02 0 1.41l6.59 6.59c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L7.83 13H19c.55 0 1-.45 1-1s-.45-1-1-1z"/>
+        </svg></a>
+        <p class="tema">PERCEPCIÓN</p>
+        <p class="informacio1"> Este juego consiste en realizar una carrera, en la que se puede establecer salida y llegada, de manera que el niño o niña se ha de colocar dentro en un saco y tendrá que saltar con los pies juntos para avanzar mientras sujeta el saco con las manos. Se puede realizar de forma individual o colectivamente. En este último caso, se puede realizar carreras y relevos por parejas o equipos.
+            La carrera de sacos se puede emplear para trabajar el equilibrio, además de la coordinación motriz.
+           </p>
+        <!--<p class="informacio2"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi culpa, velit 
+            animi ullam autem fuga aliquid porro eaque nesciunt in quae pariatur provident, alias quo recusandae 
+            explicabo excepturi molestiae voluptates.</p>-->
+        <p class="informacio2"> <br><br><br><br><br><br><br><br><br><br>A la hora de trabajar la propiocepción, se puede ajustar el nivel de 
+            dificultad: Lo óptimo sería comenzar utilizando una superficie estable, apoyo bipodal (con dos pies) y con ojos 
+            abiertos, para ir aumentando en dificultad sobre superficie inestable, apoyo unipodal (un solo pie) y ojos cerrados, 
+            acompañado de movimientos con cargas adicionales y/o perturbaciones externas. </p>
+    </div>
+
+    <div class="flex" id="flex">
+        <div class="contenido-modal">
+            <div class="contingut">
+                <div id="boto"></div>
+            <div id="tot">
+                <div class="video">
+                    <div class="punt"></div>
+                    <p>VIDEO</p>
+                    <img class="img1_3" src="Imatges/cine5.png">
+                </div>
+                <div class="recomenacions">
+                    <div class="punt"></div>
+                    <p>RECOMENDACIONES</p>
+                    <p class="text">- Espacio: Se recomienda un espacio amplio con una superficie segura y sin muchos obstáculos. 
+                        <br><br> - Tiempo: Es variable, ya que según el tiempo que se disponga o desee la persona. Aun así, se puede establecer un tiempo limitado para llegar a la meta. </p>
+                </div> 
+                <div class="material">
+                    <div class="punt"></div>
+                    <p>MATERIAL</p>
+                    <p class="mat">- Los materiales que se requieren para llevar a cabo la actividad son bolsas, sacos tejidos, sacos de 
+                        patatas o arroz, etc. Lo ideal sería que como llegaran a la altura de las caderas.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<footer>
+    <div class="menu">
+        <div class="calendari">
+            <svg class="logo_calendari" xmlns="http://www.w3.org/2000/svg" height="23" viewBox="0 0 23 23" width="23">
+                <path d="M20 3h-1V1h-2v2H7V1H5v2H4c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 18H4V8h16v13z"/>
+                <path d="M0 0h24v24H0z" fill="none"/>
+            </svg>
+        </div>
+        <div class="home">
+            <svg class="logo_home" xmlns="http://www.w3.org/2000/svg" height="23" viewBox="0 0 23 23" width="23">
+                <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/>
+                <path d="M0 0h24v24H0z" fill="none"/>
+            </svg>
+        </div>
+        <div class="forum">
+            <svg class="logo_forum" xmlns="http://www.w3.org/2000/svg" height="23" viewBox="0 0 23 23" width="23">
+                <path d="M0 0h24v24H0V0z" fill="none"/>
+                <path d="M20 6h-1v8c0 .55-.45 1-1 1H6v1c0 1.1.9 2 2 2h10l4 4V8c0-1.1-.9-2-2-2zm-3 5V4c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v13l4-4h9c1.1 0 2-.9 2-2z"/>
+            </svg>
+        </div>
+    </div>
+</footer>
+</html>
+<script>
+    var up_down = true;
+    var target = document.getElementById("flex");
+    var fons = document.getElementById("capçalera");
+    target.style.display = 'flex';
+    var boto = document.getElementById("boto");
+    boto.addEventListener("click", function(){
+        if (up_down == true){
+            down();
+        }
+        else{
+            up();
+        }
+        
+    });
+
+    function down() {  
+        fons.style.opacity="1";
+        var pos = 145;
+        var id = setInterval(frame, 1);
+        function frame() {
+            if (pos == 712) {
+            clearInterval(id);
+            } else {
+            pos=pos+3; 
+            target.style.marginTop = pos + "px";
+            }
+        }
+        up_down=false;
+    }
+
+    function up() {
+        fons.style.opacity="0.5";
+        var pos = 712;
+        var id = setInterval(frame, 1);
+        function frame() {
+            if (pos == 145) {
+            clearInterval(id);
+            } else {
+            pos=pos-3; 
+            target.style.marginTop = pos + "px";
+            }
+        }
+        up_down=true;
+    }
+</script>

@@ -1,0 +1,302 @@
+*{margin:0; padding: 0;}
+
+.titol{
+    position: absolute;
+    width: 281px;
+    height: 28px;
+    left: 48px;
+    top: 59px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.percepcio{
+    position: absolute;
+    width: 159px;
+    height: 177px;
+    left: 41px;
+    top: 139px;
+
+    background: rgba(38, 70, 83, 0.8);
+    border-radius: 8px;
+}
+
+.logo_percepcio{
+    position: absolute;
+    width: 62px;
+    height: 62px;
+    left: 50px;
+    top: 36px;
+
+    fill: #243841;
+}
+
+.nom_percepcio {
+    position: absolute;
+    width: 181px;
+    height: 31px;
+    left: -10px;
+    top: 115px;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 15px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #243841;
+}
+
+.atencio{
+    position: absolute;
+    width: 117px;
+    height: 141px;
+    left: 220px;
+    top: 139px;
+
+    background: rgba(42, 157, 143, 0.8);
+    border-radius: 8px;
+}
+
+.logo_atencio{
+    position: absolute;
+    width: 62px;
+    height: 62px;
+    left: 28px;
+    top: 30px;
+
+    fill: #3F7C72;
+}
+
+.nom_atencio {
+    position: absolute;
+    width: 181px;
+    height: 31px;
+    left: -30px;
+    top: 105px;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 15px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #3F7C72;
+}
+
+.llenguatge{
+    position: absolute;
+    width: 168px;
+    height: 86px;
+    left: 41px;
+    top: 328px;
+
+    background: rgba(143, 160, 120, 0.8);
+    border-radius: 8px;
+}
+
+.logo_llenguatge{
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: 61px;
+    top: 7px;
+
+    fill: #757F63;
+}
+
+.nom_llenguatge {
+    position: absolute;
+    width: 181px;
+    height: 31px;
+    left: -10px;
+    top: 55px;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 15px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #757F63;
+}
+
+.praxis{
+    position: absolute;
+    width: 123px;
+    height: 119px;
+    left: 220px;
+    top: 295px;
+
+    background: rgba(244, 162, 97, 0.8);
+    border-radius: 8px;
+}
+
+.logo_praxis{
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    left: 37px;
+    top: 15px;
+
+    fill: #BA8457 ;
+}
+
+.nom_praxis {
+    position: absolute;
+    width: 181px;
+    height: 31px;
+    left: -30px;
+    top: 80px;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 15px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #BA8457;
+}
+
+
+.fexecutives{
+    position: absolute;
+    width: 296px;
+    height: 74px;
+    left: 41px;
+    top: 429px;
+
+    background: rgba(237, 122, 106, 0.8);
+    border-radius: 8px;
+}
+
+.logo_fexecutives{
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    left: 57px;
+    top: 16px;
+
+    fill: #B26659;
+}
+
+.nom_fexecutives {
+    position: absolute;
+    width: 181px;
+    height: 31px;
+    left: 75px;
+    top: 27px;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 15px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #B26659;
+}
+
+.memoria{
+    position: absolute;
+    width: 178px;
+    height: 81px;
+    left: 98px;
+    top: 518px;
+
+    background: rgba(231, 111, 81, 0.8);
+    border-radius: 8px;
+}
+
+.logo_memoria{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 73px;
+    top: 10px; 
+
+    fill: #AD5E47;
+}
+
+.nom_memoria {
+    position: absolute;
+    width: 181px;
+    height: 31px;
+    left: 0px;
+    top: 47px;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 15px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #AD5E47;
+}
+
+
+.menu{
+    position: absolute;
+    width: 375px;
+    height: 86px;
+    left: 0px;
+    top: 726px;
+
+    background: #F8F5F6;
+    
+    float: left;
+    
+}
+
+.logo_calendari{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 56.92px;
+    bottom: 26px;
+
+    fill: #CFC8C8;
+
+}
+
+.forum{
+    margin-top: 16px;
+    margin-left: 277px;
+    width: 54px;
+    height: 54px;
+    border-radius: 40px 40px 40px 40px;
+    background: #EED5D5;
+}
+
+.logo_home{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    bottom: 26px;
+    left: 168px;
+
+    fill: #CFC8C8;
+}
+
+.logo_forum{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 286.92px;
+    bottom: 26px;
+    
+    fill: #C58181;
+}

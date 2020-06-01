@@ -1,0 +1,329 @@
+*{margin:0; padding: 0;}
+
+html{
+    background: rgba(237, 122, 106, 0.8);
+}
+
+.capçalera{
+    position: absolute;
+    width: 375px;
+    height: 175px;
+    left: 0px;
+    top: 0px;
+}
+
+.contingut{
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    margin-top: 145px;
+    border-radius: 40px 40px 0px 0px;
+    background-color: #FFFFFF;
+}
+
+.logo_fletxa{
+    position: absolute;
+    left: 20px;
+    top: 45px;
+
+    fill:#FFFFFF;
+}
+
+.logo_cercar{
+    position: absolute;
+    left: 331px;
+    top: 45px;
+
+    fill: #ffffff;
+}
+
+.titol{
+    position: absolute;
+    width: 181px;
+    height: 31px;
+    left: 94px;
+    top: 45px;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.preguntes{
+    position: absolute;
+    width: 248px;
+    height: 40px;
+    left: 38px;
+    top: 45px;
+}
+
+.preguntes p{
+    position: absolute;
+    top: 10px;
+    left: 40px;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    
+    text-align: center;
+    color: #000000;
+}
+
+.punt{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 20px;
+    top: 15.5px;
+    border-radius: 50%;
+
+    background: rgba(237, 122, 106, 0.8);
+}
+
+.afegir_pregunta1{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 227px;
+    top: 175px;
+
+    fill: #D46467;
+}
+.afegir_pregunta2{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 227px;
+    top: 325px;
+
+    fill: #D46467;
+}
+.afegir_pregunta3{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 227px;
+    top: 475px;
+
+    fill: #D46467;
+}
+
+.preg1{
+    position: absolute;
+    width: 298px;
+    height: 102px;
+    left: 39px;
+    top: 110px;
+
+    background: #E7A8AA;
+    border-radius: 18px;
+}
+
+.text_p1{
+    position: absolute;
+    width: 270px;
+    height: 69.45px;
+    padding: 15px;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: justify;
+
+    color: #000000;
+}
+
+.respostes1{
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    left: 305px;
+    top: 220px;
+
+    fill: #D46467;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.nresp1{
+    position: absolute;
+    left: 315px;
+    top: 225px;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: justify;
+
+    color: #ffffff;
+}
+
+.preg2{
+    position: absolute;
+    width: 298px;
+    height: 102px;
+    left: 39px;
+    top: 260px;
+
+    background: #E7A8AA;
+    border-radius: 18px;
+}
+
+.text_p2{
+    position: absolute;
+    width: 270px;
+    height: 69.45px;
+    padding: 15px;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: justify;
+
+    color: #000000;
+}
+
+.respostes2{
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    left: 305px;
+    top: 370px;
+
+    fill: #D46467;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.nresp2{
+    position: absolute;
+    left: 315px;
+    top: 375px;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: justify;
+
+    color: #ffffff;
+}
+
+.preg3{
+    position: absolute;
+    width: 298px;
+    height: 102px;
+    left: 39px;
+    top: 410px;
+
+    background: #E7A8AA;
+    border-radius: 18px;
+}
+
+.text_p3{
+    position: absolute;
+    width: 270px;
+    height: 69.45px;
+    padding: 15px;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: justify;
+
+    color: #000000;
+}
+
+.respostes3{
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    left: 305px;
+    top: 520px;
+
+    fill: #D46467;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.nresp3{
+    position: absolute;
+    left: 315px;
+    top: 525px;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: justify;
+
+    color: #ffffff;
+}
+
+.menu{
+    position: absolute;
+    width: 375px;
+    height: 86px;
+    left: 0px;
+    top: 726px;
+
+    background: #F8F5F6;
+    
+    float: left;
+    
+}
+
+.logo_calendari{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 56.92px;
+    bottom: 26px;
+
+    fill: #CFC8C8;
+
+}
+
+.forum{
+    margin-top: 16px;
+    margin-left: 277px;
+    width: 54px;
+    height: 54px;
+    border-radius: 40px 40px 40px 40px;
+    background: #EED5D5;
+}
+
+.logo_home{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    bottom: 26px;
+    left: 168px;
+
+    fill: #CFC8C8;
+}
+
+.logo_forum{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 286.92px;
+    bottom: 26px;
+    
+    fill: #C58181;
+}

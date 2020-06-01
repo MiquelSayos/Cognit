@@ -1,0 +1,178 @@
+*{margin:0; padding: 0;}
+*{text-decoration: none;}
+*{color: #000000;}
+
+body{
+    width: 375px;
+    height: 1020px;
+    background: white;
+}
+
+.cognit{
+    position: absolute;
+    width: 227px;
+    height: 56px;
+    left: 73px;
+    top: 45px;
+}
+
+#but{
+    top: 743px;
+    bottom: 239px;
+}
+
+button{
+    position: sticky;
+    width: 169.73px;
+    height: 38px;
+    left: 103px;
+    top: 950px;
+    box-shadow: none;
+    text-decoration: none;
+    position: absolute;
+    background: #D46467;
+    border-radius: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: white; 
+}
+
+.info{
+    position: absolute;
+    width: 298px;
+    height: 40px;
+    left: 38px;
+    top: 145px;
+
+    background: #EED5D5;
+    border-radius: 16px;
+}
+
+#info1{
+    position: absolute;
+    width: 301px;
+    height: 392px;
+    left: 0px;
+    top: 55px;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: justify;
+
+    color: #000000;
+}
+
+#info2{
+    position: absolute;
+    width: 296px;
+    height: 75px;
+    left: 0px;
+    top: 135px;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: justify;
+
+    color: #000000;
+}
+
+#info3{
+    position: absolute;
+    width: 296px;
+    height: 75px;
+    left: 0px;
+    top: 225px;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: justify;
+
+    color: #000000;
+}
+
+#info4{
+    position: absolute;
+    width: 227.09px;
+    height: 80px;
+    left: 70px;
+    top: 65px;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: justify;
+
+    color: #000000;
+}
+#info5{
+    position: absolute;
+    width: 298px;
+    height: 244px;
+    left: 0px;
+    top: 55px;
+    
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: justify;
+    
+    color: #000000;
+}
+
+.terap{
+    position: absolute;
+    width: 298px;
+    height: 40px;
+    left: 38px;
+    top: 638px;
+    background: #EED5D5;
+    border-radius: 16px;
+}
+
+p{
+    position: absolute;
+    top: 10px;
+    left: 40px;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    
+    text-align: center;
+    color: #000000;
+}
+
+.Terapeuta{
+    position: absolute;
+    width: 58.45px;
+    height: 75px;
+    left: 0px;
+    top: 65px;
+    border-radius: 5px;
+}
+
+.triangle{
+    position: absolute;
+    left: 20px;
+    top: 13px;
+
+    border-style: solid;
+    border-width: 6px 0 6px 12px;
+    border-color: transparent transparent transparent #d46468;
+}

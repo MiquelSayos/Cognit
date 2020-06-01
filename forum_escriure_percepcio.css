@@ -1,0 +1,114 @@
+*{margin:0; padding: 0;}
+
+html{
+    background: rgba(38, 70, 83, 0.8);
+}
+
+.logo_fletxa{
+    position: absolute;
+    left: 20px;
+    top: 45px;
+
+    fill:#FFFFFF;
+}
+
+p{
+    position: absolute;
+    width: 181px;
+    height: 35.85px;
+    left: 94px;
+    top: 73.25px;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+textarea{
+    position: absolute;
+    width: 322px;
+    height: 200px;
+    left: 27px;
+    top: 116px;
+    padding: 10px;
+    vertical-align: top;
+
+    background: #EED5D5;
+    border-radius: 17px;
+    box-sizing: border-box;
+    box-shadow: none;
+    outline: 0 none;
+    border: none;
+
+    resize: none;
+}
+
+button{
+    position: absolute;
+    width: 66px;
+    height: 34px;
+    left: 283px;
+    top: 330px;
+    
+    background: #EED5D5;
+    border-radius: 17px;
+    box-sizing: border-box;
+}
+
+.menu{
+    position: absolute;
+    width: 375px;
+    height: 86px;
+    left: 0px;
+    top: 726px;
+
+    background: #F8F5F6;
+    
+    float: left;
+    
+}
+
+.logo_calendari{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 56.92px;
+    bottom: 26px;
+
+    fill: #CFC8C8;
+
+}
+
+.forum{
+    margin-top: 16px;
+    margin-left: 277px;
+    width: 54px;
+    height: 54px;
+    border-radius: 40px 40px 40px 40px;
+    background: #EED5D5;
+}
+
+.logo_home{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    bottom: 26px;
+    left: 168px;
+
+    fill: #CFC8C8;
+}
+
+.logo_forum{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 286.92px;
+    bottom: 26px;
+    
+    fill: #C58181;
+}

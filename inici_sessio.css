@@ -1,0 +1,108 @@
+*{text-decoration: none;}
+*{color: #000000;}
+
+@font-face {
+    font-family: Helv;
+    src: url(Tipografies/HelveticaNeue.ttc);
+}
+
+
+body{
+    background: #FFFFFF;
+}
+
+.Cognit{
+    width: 227px;
+    height: 56px;
+    display:block;
+    margin:auto;
+    margin-top: 158px;
+}
+
+form{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.frase{
+    position: absolute;
+    width: 198px;
+    height: 14px;
+    left: 89px;
+    top: 608px;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.terapeuta{
+    position: absolute;
+    width: 198px;
+    height: 14px;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.div_terapeuta{
+    margin-left: 75px;
+    margin-top: 224px;
+    width: 208px;
+    height: 40px;
+    background-color: #D46467;
+    border-radius: 13px;
+}
+
+.Usuari {
+    font-family: Helv;
+    border: none;
+    width: 208px;
+    margin-top: 85px;
+    font-size: 14px;
+    border-radius: 13px;
+    background: rgba(207, 200, 200, 1) url('Icones/usuari.svg');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 14px 22px 14px 42px;
+}
+
+.Contrasenya {
+    font-family: Helv;
+    border: none;
+    width: 208px;
+    margin-top: 60px;
+    font-size: 14px;
+    border-radius: 13px;
+    background: rgba(207, 200, 200, 1) url('Icones/contrasenya.svg');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 14px 22px 14px 42px;
+}
+
+button{
+    box-shadow: none;
+    text-decoration: none;
+    margin-left: 53px;
+    margin-top: 80px;
+    position: absolute;
+    width: 268px;
+    height: 60px;
+    background: #D46467;
+    border-radius: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}

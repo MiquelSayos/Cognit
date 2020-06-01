@@ -1,0 +1,183 @@
+.logo_fletxa{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 20px;
+    top: 45px;
+
+    fill:#000000;
+}
+
+.capçalera{
+    position: absolute;
+    width: 375px;
+    height: 127px;
+    left: 0px;
+    top: 0px;
+
+    background: #EED5D5;
+}
+
+input{
+    position: absolute;
+    width: 300px;
+    height: 29px;
+    left: 53px;
+    top: 72px;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+
+    color: #717171;
+    background-color: #EED5D5;
+    box-sizing: border-box;
+    border: none;
+}
+
+h2{
+    position: absolute;
+    width: 114px;
+    height: 28px;
+    left: 41px;
+    top: 143px;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    
+    text-align: center;
+
+    color: #000000;
+}
+
+#r1{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 37px;
+    top: 208px;
+    border-radius: 50%;
+
+    background: #516B75;
+}
+#r2{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 34px;
+    top: 278px;
+
+    background: #55B1A5;
+    border-radius: 50%;
+}
+#r3{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 34px;
+    top: 348px;
+
+    background: #F6B581;
+    border-radius: 50%;
+}
+#r4{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 34px;
+    top: 408px;
+
+    background: #A5B393;
+    border-radius: 50%;
+}
+#r5{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 34px;
+    top: 488px;
+
+    background: #F6B581;
+    border-radius: 50%;
+}
+
+#t1{
+    position: absolute;
+    width: 261px;
+    height: 19px;
+    left: 79px;
+    top: 205px;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #000000;
+}
+#t2{
+    position: absolute;
+    width: 261px;
+    height: 19px;
+    left: 79px;
+    top: 275px;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #000000;
+}
+#t3{
+    position: absolute;
+    width: 261px;
+    height: 19px;
+    left: 79px;
+    top: 345px;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #000000;
+}
+#t4{
+    position: absolute;
+    width: 261px;
+    height: 19px;
+    left: 79px;
+    top: 415px;
+    
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    
+    color: #000000;
+}
+#t5{
+    position: absolute;
+    width: 261px;
+    height: 19px;
+    left: 79px;
+    top: 485px;
+    
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    
+    color: #000000;
+}

@@ -1,0 +1,293 @@
+*{margin:0; padding: 0;}
+body{
+    background-image: url(Imatges/Calendari.png);
+    background-repeat: no-repeat;
+}
+
+#fons{
+    position: absolute;
+    width: 375px;
+    height: 812px;
+    left: 0px;
+    top: 0px;
+    
+    background: #4F4848;
+    opacity: 0.25;
+}
+
+.menu{
+    position: absolute;
+    width: 375px;
+    height: 86px;
+    left: 0px;
+    top: 726px;
+
+    background: #F8F5F6;
+    
+    float: left;
+    
+}
+
+.logo_calendari{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 56.92px;
+    bottom: 26px;
+
+    fill: #C58181;
+
+}
+
+.calendari{
+    width: 54px;
+    height: 54px;
+    margin-left: 48px;
+    margin-top: 17px;
+    border-radius: 40px 40px 40px 40px;
+    background: #EED5D5;
+}
+
+.logo_home{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    bottom: 26px;
+    left: 168px;
+
+    fill: #CFC8C8;
+}
+
+.logo_forum{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 286.92px;
+    bottom: 26px;
+    
+    fill: #CFC8C8;
+}
+
+#titol{
+    position: absolute;
+    width: 161px;
+    height: 28px;
+    left: 107px;
+    top: 59px;
+    
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    
+    color: #000000;
+}
+
+#mesos{
+    position: absolute;
+    width: 374px;
+    height: 45px;
+    left: -3px;
+    top: 128px;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 25px;
+    text-align: center;
+
+    color: #6D6C6C;
+}
+#mesos li{
+    display: inline-block;
+}
+
+#dies{
+    position: absolute;
+    width: 374px;
+    height: 45px;
+    left: 0px;
+    top: 207px;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #000000;
+}
+#dies li{
+    display: inline-block;
+}
+
+.dia{
+    padding-right: 25px;
+}
+
+#actual{
+    position: absolute;
+    width: 146.61px;
+    height: 48px;
+    left: 115.68px;
+
+    background: #D46467;
+    border-radius: 8px;
+
+    
+}
+
+#actual p{
+    position: absolute;
+    width: 135px;
+    height: 31px;
+    left: 8.32px;
+    top: 11px;
+    
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+#feb{
+    position: absolute;
+    width: 78px;
+    height: 20px;
+    left: 25px;
+    top: 11px;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 25px;
+
+    color: #6D6C6C;
+}
+
+#abr{
+    position: absolute;
+    width: 46px;
+    height: 29px;
+    left: 285px;
+    top: 11px;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 25px;
+    text-align: right;
+
+    color: #6D6C6C;
+}
+
+#click{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 124px;
+    top: 417px;
+
+    border: 3px solid #D46467;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+.flex{
+    position: absolute;
+    width: 287px;
+    height: 469px;
+    left: 45px;
+    top: 152px;
+
+    background: #FFFFFF;
+    border-radius: 40px;
+}
+
+.modal{
+    display: none;
+    position: fixed;
+    overflow: auto;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.contenido-modal{
+    position: fixed;
+}
+
+.contingut p{
+    position: absolute;
+    width: 236px;
+    height: 126px;
+    left: 23px;
+    top: 157px;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#titol1{
+    position: absolute;
+    width: 200px;
+    height: 34px;
+    left: 43px;
+    top: 43px;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 25px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.contingut button{
+    position: absolute;
+    width: 206px;
+    height: 46.12px;
+    left: 39px;
+    top: 361px;
+
+    background: #D46467;
+    border-radius: 13px;
+}
+
+.contingut a{
+    text-decoration: none;
+    position: absolute;
+    width: 169px;
+    height: 14px;
+    left: 59px;
+    top: 423px;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+
+    text-align: center;
+
+    color: #000000;
+}

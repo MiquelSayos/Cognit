@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COGNIT | Página Percepción</title>
+    <link rel="stylesheet" href="pagina_informacio_percepcio2.css">
+</head>
+<body>
+    <div id="capçalera">
+        <a href="pagina_activitats_percepcio - copia.html"><svg class="logo_fletxa" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+            <path d="M0 0h24v24H0V0z" fill="none"/>
+            <path d="M19 11H7.83l4.88-4.88c.39-.39.39-1.03 0-1.42-.39-.39-1.02-.39-1.41 0l-6.59 6.59c-.39.39-.39 1.02 0 1.41l6.59 6.59c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L7.83 13H19c.55 0 1-.45 1-1s-.45-1-1-1z"/>
+        </svg></a>
+        <p class="tema">PERCEPCIÓN</p>
+        <p class="informacio1"> Todos conocemos el juego del memory: se basa en extender un montón de cartas encima de
+            una superficie plana como una mesa y después ir girándolas de dos en dos y por turnos, para
+            encontrar la pareja. Es un buen juego para estimular la visión y también para trabajar la
+            memoria.</p>
+        <p class="informacio2"> Ante esto, proponemos la variante: el memory personal. Se trata de escoger una serie de fotos
+            significativas o dibujos, imprimirlas, recortar-las, engancharlas en unas tarjetas de la misma
+            forma y del mismo color para poder jugar de una manera más significativa.</p>
+        <!-- <img class="img1" src="Imatges/gris.jpg">
+        <img class="img2" src="Imatges/gris.jpg"> -->
+        <p class="informacio3"> La percepción visual, que nos permite distinguir los objetos, los colores y las diferentes formas.</p>
+    </div>
+
+    <div class="flex" id="flex">
+        <div class="contenido-modal">
+            <div class="contingut">
+                <div id="boto"></div>
+            <div id="tot">
+                <div class="video">
+                    <div class="punt"></div>
+                    <p>VIDEO</p>
+                    <img class="img1" src="Imatges/gris.jpg">
+                </div>
+                <div class="recomenacions">
+                    <div class="punt"></div>
+                    <p>RECOMENDACIONES</p>
+                    <p class="text">- Espacio: un espacio tranquilo en el que podamos encontrar una superficie plana como
+                        una mesa o bien el suelo, libre de sonidos, distracciones u materiales que puedan
+                        diseminar nuestra atención.
+                        <br> - Tiempo: No hay tiempo establecido, depende del número de personas, de cartas y la
+                        habilidad. </p>
+                </div> 
+                <div class="material">
+                    <div class="punt"></div>
+                    <p>MATERIAL</p>
+                    <p class="mat">- Cartas del Memory</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<footer>
+    <div class="menu">
+        <div class="calendari">
+            <a href="calendari_free.html"><svg class="logo_calendari" xmlns="http://www.w3.org/2000/svg" height="23" viewBox="0 0 23 23" width="23">
+                <path d="M20 3h-1V1h-2v2H7V1H5v2H4c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 18H4V8h16v13z"/>
+                <path d="M0 0h24v24H0z" fill="none"/>
+            </svg></a>
+        </div>
+        <div class="home">
+            <a href="pagina_principal2.html"><svg class="logo_home" xmlns="http://www.w3.org/2000/svg" height="23" viewBox="0 0 23 23" width="23">
+                <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/>
+                <path d="M0 0h24v24H0z" fill="none"/>
+            </svg></a>
+        </div>
+        <div class="forum">
+            <a href="forum_free.html"><svg class="logo_forum" xmlns="http://www.w3.org/2000/svg" height="23" viewBox="0 0 23 23" width="23">
+                <path d="M0 0h24v24H0V0z" fill="none"/>
+                <path d="M20 6h-1v8c0 .55-.45 1-1 1H6v1c0 1.1.9 2 2 2h10l4 4V8c0-1.1-.9-2-2-2zm-3 5V4c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v13l4-4h9c1.1 0 2-.9 2-2z"/>
+            </svg></a>
+        </div>
+    </div>
+</footer>
+</html>
+<script>
+    var up_down = true;
+    var target = document.getElementById("flex");
+    var fons = document.getElementById("capçalera");
+    target.style.display = 'flex';
+    var boto = document.getElementById("boto");
+    boto.addEventListener("click", function(){
+        if (up_down == true){
+            down();
+        }
+        else{
+            up();
+        }
+        
+    });
+
+    function down() {  
+        fons.style.opacity="1";
+        var pos = 145;
+        var id = setInterval(frame, 1);
+        function frame() {
+            if (pos == 712) {
+            clearInterval(id);
+            } else {
+            pos=pos+3; 
+            target.style.marginTop = pos + "px";
+            }
+        }
+        up_down=false;
+    }
+
+    function up() {
+        fons.style.opacity="0.5";
+        var pos = 712;
+        var id = setInterval(frame, 1);
+        function frame() {
+            if (pos == 145) {
+            clearInterval(id);
+            } else {
+            pos=pos-3; 
+            target.style.marginTop = pos + "px";
+            }
+        }
+        up_down=true;
+    }
+</script>

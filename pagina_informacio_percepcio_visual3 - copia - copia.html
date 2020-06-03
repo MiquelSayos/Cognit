@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COGNIT | Página Percepción</title>
+    <link rel="stylesheet" href="pagina_informacio_percepcio3.css">
+</head>
+<body>
+    <div id="capçalera">
+        <a href="pagina_activitats_percepcio - copia - copia.html"><svg class="logo_fletxa" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+            <path d="M0 0h24v24H0V0z" fill="none"/>
+            <path d="M19 11H7.83l4.88-4.88c.39-.39.39-1.03 0-1.42-.39-.39-1.02-.39-1.41 0l-6.59 6.59c-.39.39-.39 1.02 0 1.41l6.59 6.59c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L7.83 13H19c.55 0 1-.45 1-1s-.45-1-1-1z"/>
+        </svg></a>
+        <p class="tema">PERCEPCIÓN</p>
+        <p class="informacio1"> Este juego consiste en señalar, sea con un círculo o una marca, la diferencia que ves entre los
+            dos dibujos o viñetas que aparentemente son iguales. Es un juego individual, un pasatiempo.
+            Este juego fomenta la concentración y la agudeza visual.</p>
+        <!--<p class="informacio2"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi culpa, velit 
+            animi ullam autem fuga aliquid porro eaque nesciunt in quae pariatur provident, alias quo recusandae 
+            explicabo excepturi molestiae voluptates.</p>-->
+        <p class="informacio2"> <br><br>La percepción visual, que nos permite distinguir los objetos, los colores y las diferentes formas.</p>
+    </div>
+
+    <div class="flex" id="flex">
+        <div class="contenido-modal">
+            <div class="contingut">
+                <div id="boto"></div>
+            <div id="tot">
+                <div class="video">
+                    <div class="punt"></div>
+                    <p>VIDEO</p>
+                    <img class="img1" src="Imatges/gris.jpg">
+                </div>
+                <div class="recomenacions">
+                    <div class="punt"></div>
+                    <p>RECOMENDACIONES</p>
+                    <p class="text">- Espacio: el espacio a la hora de desarrollar la actividad seria preferiblemente encima
+                        de la mesa ya que te concentras más que tumbado en el sofá i/o enfrente de la
+                        televisión. 
+                        <br> - Tiempo: no hay un tiempo determinado. </p>
+                </div> 
+                <div class="material">
+                    <div class="punt"></div>
+                    <p>MATERIAL</p>
+                    <p class="mat">- Imágenes, un bolígrafo o lápiz, una goma de borrar.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<footer>
+    <div class="menu">
+        <div class="calendari">
+            <a href="calendari_principal_terapeuta.html"><svg class="logo_calendari" xmlns="http://www.w3.org/2000/svg" height="23" viewBox="0 0 23 23" width="23">
+                <path d="M20 3h-1V1h-2v2H7V1H5v2H4c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 18H4V8h16v13z"/>
+                <path d="M0 0h24v24H0z" fill="none"/>
+            </svg></a>
+        </div>
+        <div class="home">
+            <a href="pagina_principal3.html"><svg class="logo_home" xmlns="http://www.w3.org/2000/svg" height="23" viewBox="0 0 23 23" width="23">
+                <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/>
+                <path d="M0 0h24v24H0z" fill="none"/>
+            </svg></a>
+        </div>
+        <div class="forum">
+            <a href="forum_terapeuta.html"><svg class="logo_forum" xmlns="http://www.w3.org/2000/svg" height="23" viewBox="0 0 23 23" width="23">
+                <path d="M0 0h24v24H0V0z" fill="none"/>
+                <path d="M20 6h-1v8c0 .55-.45 1-1 1H6v1c0 1.1.9 2 2 2h10l4 4V8c0-1.1-.9-2-2-2zm-3 5V4c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v13l4-4h9c1.1 0 2-.9 2-2z"/>
+            </svg></a>
+        </div>
+    </div>
+</footer>
+</html>
+<script>
+    var up_down = true;
+    var target = document.getElementById("flex");
+    var fons = document.getElementById("capçalera");
+    target.style.display = 'flex';
+    var boto = document.getElementById("boto");
+    boto.addEventListener("click", function(){
+        if (up_down == true){
+            down();
+        }
+        else{
+            up();
+        }
+        
+    });
+
+    function down() {  
+        fons.style.opacity="1";
+        var pos = 145;
+        var id = setInterval(frame, 1);
+        function frame() {
+            if (pos == 712) {
+            clearInterval(id);
+            } else {
+            pos=pos+3; 
+            target.style.marginTop = pos + "px";
+            }
+        }
+        up_down=false;
+    }
+
+    function up() {
+        fons.style.opacity="0.5";
+        var pos = 712;
+        var id = setInterval(frame, 1);
+        function frame() {
+            if (pos == 145) {
+            clearInterval(id);
+            } else {
+            pos=pos-3; 
+            target.style.marginTop = pos + "px";
+            }
+        }
+        up_down=true;
+    }
+</script>

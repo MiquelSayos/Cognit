@@ -1,6 +1,7 @@
 *{margin:0; padding: 0;}
 body{
     background-image: url(Imatges/Calendari.png);
+    background-repeat: no-repeat;
 }
 .menu{
     position: absolute;

@@ -9,6 +9,8 @@
 
 body{
     background: #FFFFFF;
+    width: 375px;
+    height: 812px;
 }
 
 .Cognit{
@@ -91,7 +93,7 @@ form{
     padding: 14px 22px 14px 42px;
 }
 
-button{
+a div{
     box-shadow: none;
     text-decoration: none;
     margin-left: 53px;
@@ -101,8 +103,12 @@ button{
     height: 60px;
     background: #D46467;
     border-radius: 13px;
+}
+a div p{
+    margin-top: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-weight: bold;
     color: white;
+    text-align: center;
 }
